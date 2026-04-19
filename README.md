@@ -1,10 +1,10 @@
 # Student Result Management System
 
-A command-line Python application for managing student results.
+A command-line Python application for managing student results built with OOP principles.
 
 ## Features
 - Add students with multiple subject scores
-- Automatically calculates average score and grade
+- Automatically calculates average score and grade (A, B, C, D, F)
 - Saves all data persistently to a JSON file
 - Loads existing records on startup
 
@@ -13,5 +13,6 @@ python student.py
 
 ## Concepts Demonstrated
 - Object Oriented Programming (Classes, Methods)
-- File I/O and data persistence
-- Data structures
+- File I/O and data persistence with JSON
+- Data structures (lists, dictionaries)
+- Clean code formatting with Black
